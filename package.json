@@ -1,0 +1,23 @@
+{
+  "name": "js-project-template",
+  "version": "1.0.0",
+  "description": "Base template that provides base Jest, Prettier, ESLint and Nodemon setup.",
+  "main": "index.js",
+  "author": "Justin Perry",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "nodemon ./index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2"
+  }
+}
